@@ -20,7 +20,7 @@ public class Menu {
                     3 - Caminhão
                     """);
             try {
-                String entrada = teclado.nextLine();
+                String entrada = teclado.nextLine().trim();
 
                 opcao = Integer.parseInt(entrada);
 
